@@ -70,6 +70,8 @@ create table students
       tel char(13) null default “-“
 );  
 ```
+添加用户  
+[add user](https://dev.mysql.com/doc/refman/5.7/en/adding-users.html)
 ---
 >对于一些较长的语句在命令提示符下可能容易输错, 因此我们可以通过任何文本编辑器将语句输入好后保存为 createtable.sql 的文件中, 通过命令提示符下的文件重定向执行执行该脚本。
 
